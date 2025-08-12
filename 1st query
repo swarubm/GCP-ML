@@ -1,3 +1,9 @@
+
+
+
+
+
+
 #standardSQL
 SELECT
   IF(totals.transactions IS NULL, 0, 1) AS label,
